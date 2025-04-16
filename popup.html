@@ -22,6 +22,7 @@
               </div>
             </div>`;
           document.body.appendChild(modal);
+
           document.getElementById('acceptTermsBtn').addEventListener('click', function () {
             localStorage.setItem(storageKey, 'true');
             modal.remove();
